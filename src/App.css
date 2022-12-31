@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open sans';
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
+}
+
+:root{
+  --primary: #50830F;
+  --secondary: #FFCC00;
+  --tertiary: #151910;
+  --bg: #F9F9F8;
+  --yellow: #FFF5CC;
+  --green: #DCE6CF;
+}
